@@ -1,0 +1,16 @@
+
+  .pai{
+    background-color: aquamarine;
+    display: flex;
+       
+}
+.prin{
+    padding: 10px;
+    background-color: #824394;
+    margin-left: 10px;
+    width: 500px;
+    text-align: center;
+}
+.Basic{
+    background-color: yellow;
+}
