@@ -3,8 +3,7 @@ import "./Prova.css";
 function Card({nome,preco,cor,proj}){
     return(
         <div className="prin" > 
-
-                   <p className={nome}>
+            <p className={nome}>
                              {nome}
 
                     </p>
