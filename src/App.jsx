@@ -29,7 +29,6 @@ function App() {
          cor: "unilimited Users",
          proj:"unilimited Projects"
       }
-
     ];
     return(
 		<div className="pai">
@@ -41,22 +40,22 @@ function App() {
                   />;
 				
 				})
-			}
+			};
+         <div className="topo">
+             {
 
-         {
-
-               centro.map((cen, nome) => {
-                  return <Card key={nome}
-                        nome={cen.nome}
-                        preco={cen.preco}
-                        cor={cen.cor}
-                        proj={cen.proj}
-                     />;
-               })
-}
-
-         </div>
-
+                  centro.map((cen, nome) => {
+                     return <Card key={nome}
+                           nome={cen.nome}
+                           preco={cen.preco}
+                           cor={cen.cor}
+                           proj={cen.proj}
+                        />;
+                  })
+               } 
+         </div> 
+      </div>
+         
       );
 }
 
