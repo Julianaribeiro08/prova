@@ -1,15 +1,17 @@
 
   .pai{
     background-color: aquamarine;
-    display: flex;
-       
-}
+    text-align: center;
+  }
+  
 .prin{
     padding: 10px;
     background-color: #824394;
     margin-left: 10px;
     width: 500px;
     text-align: center;
+    display: flex;
+    margin: 10px;
 }
 .Basic{
     background-color: yellow;

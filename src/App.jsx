@@ -1,8 +1,15 @@
 import Card from "./Card";
+import Title from "./Title";
+import "./Prova.css"
 function App() {
    
-   
-   
+   const titulo=[
+      {
+         titulo: "Premium Plans",
+         subtitulo: "Sampla text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,  illum repudiandae atque ",
+      }
+   ];
+
     const centro=[
       {
          nome: "Start",
@@ -22,20 +29,35 @@ function App() {
          cor: "unilimited Users",
          proj:"unilimited Projects"
       }
+
     ];
     return(
 		<div className="pai">
 			{
-				centro.map((cen, nome) => {
-					return <Card key={nome}
-							nome={cen.nome}
-							preco={cen.preco}
-							cor={cen.cor}
-                     proj={cen.proj}
-						/>;
+            titulo.map((tit) => {
+               return <Title
+                     titulo={tit.titulo}
+                     subtitulo={tit.subtitulo}
+                  />;
+				
 				})
 			}
-		</div>
-	);
+
+         {
+
+               centro.map((cen, nome) => {
+                  return <Card key={nome}
+                        nome={cen.nome}
+                        preco={cen.preco}
+                        cor={cen.cor}
+                        proj={cen.proj}
+                     />;
+               })
 }
+
+         </div>
+
+      );
+}
+
 export default App
