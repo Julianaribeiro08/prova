@@ -2,14 +2,16 @@
 import "./Prova.css";
 function Card({nome,preco,cor,proj}){
     return(
-        <div className="prin" > 
-            <p className={nome}>
-                             {nome}
+        <div className="texto"> 
+                    
+                   <div> <strong><h1>{nome}</h1></strong></div>
+                    
+                    <strong><p>{preco}</p></strong>
 
-                    </p>
-                    <p>{preco} </p>
-                    <p>{cor} </p>
-                    <p>{proj}</p>
+                  <div className="junta"><p>{cor}</p>
+                    <p>{proj}</p></div>
+                
+                    <button>Order now</button>
                     
         </div>
     );

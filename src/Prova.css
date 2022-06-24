@@ -1,18 +1,30 @@
-
-  .pai{
+.pai{
     background-color: aquamarine;
     text-align: center;
+    Font-family: Helvetica
   }
-  
-.prin{
-    padding: 10px;
-    background-color: #824394;
-    margin-left: 10px;
-    width: 500px;
-    text-align: center;
+.topo{
+    background-color: blue    ;
     display: flex;
-    margin: 10px;
 }
-.Basic{
-    background-color: yellow;
+.texto{
+    margin:100px;
+    background-color:#b59abd    ;
+   padding: 40px;
+   width: 700px;
 }
+button{
+    background-color: #824394;
+    color: aliceblue;
+    width: 120px;
+    padding: 5px;
+    border: none;
+}
+.junta{
+    margin-bottom: 5px;
+   font-size: small;
+    margin: 0px;
+    
+}
+
+
