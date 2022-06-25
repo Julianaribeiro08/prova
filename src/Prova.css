@@ -1,15 +1,15 @@
 .pai{
-    background-color: aquamarine;
+    background-color: rgb(205, 192, 207);
     text-align: center;
-    Font-family: Helvetica
+    Font-family: Helvetica;
   }
 .topo{
-    background-color: blue    ;
+    background-color: rgb(205, 192, 207);
     display: flex;
 }
 .texto{
     margin:100px;
-    background-color:#b59abd    ;
+    background-color:#b59abd;
    padding: 40px;
    width: 700px;
 }

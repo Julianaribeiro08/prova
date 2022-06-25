@@ -4,7 +4,7 @@ function Card({nome,preco,cor,proj}){
     return(
         <div className="texto"> 
                     
-                   <div> <strong><h1>{nome}</h1></strong></div>
+                   <strong><h1>{nome}</h1></strong>
                     
                     <strong><p>{preco}</p></strong>
 
