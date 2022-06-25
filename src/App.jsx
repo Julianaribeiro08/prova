@@ -37,10 +37,10 @@ function App() {
                return <Title
                      titulo={tit.titulo}
                      subtitulo={tit.subtitulo}
-                  />;
+                  />
 				
 				})
-			};
+			}
          <div className="topo">
              {
 
